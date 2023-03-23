@@ -1,0 +1,12 @@
+div {
+    background-color: darkorange;
+}
+
+app-sociales{
+    float: right;
+    margin-top: 50px;
+}
+
+app-banner{
+    float: initial;
+}
