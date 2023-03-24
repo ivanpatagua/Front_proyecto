@@ -1,3 +1,34 @@
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width: medium;
+}
+
 #logo{
     width: 400px;
 }
+
+/*------PARA LA VISTA DE CELULAR--------*/
+@media (max-width: 575px){
+    .conteiner{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes svg{
+        margin: 0.2em;
+    }
+}
+
